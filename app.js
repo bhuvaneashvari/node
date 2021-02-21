@@ -3,7 +3,6 @@ const mongoose = require ('mongoose');
 const bodyParser = require('body-parser')
 const cors = require('cors');
 //const path = require('path');
-const url = 'mongodb://localhost/Studentinfo'
 
 const app = express();
 
