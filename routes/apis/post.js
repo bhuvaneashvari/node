@@ -29,7 +29,7 @@ router.post('/add', ( req, res, next) => {
 });
 
 
-// Update
+// Update 
 
 router.put('/update/:id',(req, res , next) => {
 	let id = req.params.id;
