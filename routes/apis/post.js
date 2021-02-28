@@ -38,7 +38,7 @@ router.put("/update/:id", (req, res, next) => {
         .save()
         .then((post) => {
           res.send({
-            message: "Post updated successfully ",
+            message: "Post updated successfully!",
             status: "success",
             post: post,
           });
