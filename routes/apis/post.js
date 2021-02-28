@@ -11,7 +11,6 @@ router.get("/", (req, res, next) => {
     .catch((err) => console.log(err));
 });
 
-//create
 router.post("/add", (req, res, next) => {
   const title = req.body.title;
   const body = req.body.body;
